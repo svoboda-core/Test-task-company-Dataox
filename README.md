@@ -30,10 +30,10 @@ Clone the repository on your computer.<br>
 To do this, in the terminal run the command<br>
 `git clone https://github.com/svoboda-core/dataox-test-task.git`
 
-Create Docker images:
+Create Docker images:<br>
 `docker build -t data-ox-test-task .`
 
-Run script:
+Run script:<br>
 `docker run data-ox-test-task`
 
 
