@@ -12,10 +12,10 @@ from bs4 import BeautifulSoup
 from bson import json_util, ObjectId
 
 
-client = pymongo.MongoClient("mongodb+srv://VasilyMoon:Tw3HKC2bBEmJRvJ@cluster0.ubdad.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://username:password@cluster0.ubdad.mongodb.net/?retryWrites=true&w=majority")
 
-db = client["data-ox"]
-collections = db["data-ox-db"]
+db = client[""] #specify the name of the database
+collections = db[""] #specify the database collection
 
 product_info = {}
 
